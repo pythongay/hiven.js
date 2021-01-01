@@ -1,7 +1,7 @@
 {
-  "name": "hiven",
+  "name": "betterhiven",
   "version": "2.0.8",
-  "description": "Hiven.js - TS/JS bot library for Hiven",
+  "description": "BetterHiven.js - A better TS/JS bot library for Hiven",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -10,7 +10,7 @@
     "lnk": "rm -rf dist; yarn build; cp -R package.json README.md LICENSE dist; (cd dist && yarn link)"
   },
   "keywords": [],
-  "author": "Dustin Rouillard <code@dustin.sh> (https://dustin.sh)",
+  "author": "AR",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -33,5 +33,8 @@
     "events": "^3.2.0",
     "node-fetch": "^2.6.0",
     "ws": "^7.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
